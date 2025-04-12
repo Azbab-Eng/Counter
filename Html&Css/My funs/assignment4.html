@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment4</title>
+        <style>
+            .container{
+                background-color: white;
+                height: 180px;
+                width: 300px;
+            }
+            .posts{
+                display: grid;
+                grid-template-columns: 150px 70px;
+                column-gap: 80px;
+                height: 60px;
+            }
+            .profile-detail{
+                display: flex;
+                justify-content: space-between;
+                padding: 6px 6px;
+
+            }
+            img{
+                height: 38px;
+                width: 35px;
+                border-radius: 20px;
+                
+            }
+            .desc{
+                width: 70px;
+            }
+            .desc p{
+                text-align: left;
+                margin: 0;
+                margin-left:-25px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight:200;
+                font-size: 12px;
+                line-height: 15px;
+                
+            }
+            .desc p:nth-child(1){
+                font-weight:bolder ;
+            }
+            .follow{
+                margin-right: 5px;
+            }
+            .fol{margin-right: 5px;
+                color: white;
+                padding: 6px;
+                border-radius: 3px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                font-weight: 700;
+                background-color: rgba(51, 124, 235, 0.842);
+            }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <div class="container">
+            <div class="posts">
+                <div class="profile-detail">
+                    <img src="images/20240328_214304.jpg" alt="">
+                    <div class="desc">
+                        <p>Oliver</p>
+                        <p>the cat</p>
+                        <p>Popular</p>
+                    </div>
+                </div>
+                <div class="follow"><p class="fol">Follow</p></div>
+            </div>
+            <div class="posts">
+                <div class="profile-detail">
+                    <img src="images/20240328_214315.jpg" alt="">
+                    <div class="desc">
+                        <p>Mimi</p>
+                        <p>Sleepy Cat</p>
+                        <p>Popular</p>
+                    </div>
+                </div>
+                <div class="follow"><p class="fol">Follow</p></div>
+            </div>
+            <div class="posts">
+                <div class="profile-detail">
+                    <img src="images//20240328_214347.jpg" alt="">
+                    <div class="desc">
+                        <p>Rex</p>
+                        <p>Happy Buildcat</p>
+                        <p>Popular</p>
+                    </div>
+                </div>
+                <div class="follow"><p class="fol">Follow</p></div>
+            </div>
+
+        </div>
+    </body>
+</html>

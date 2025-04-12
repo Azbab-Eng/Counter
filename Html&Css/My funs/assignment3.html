@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment3</title>
+        <style>
+            .container{
+                background-color: black;
+                height: 45px;
+                padding: 10px;
+            }
+            .header{
+                display: flex;
+                justify-content: space-between;
+                background-color:rgb(67, 5, 109);
+                padding: 8px 10px;
+                color: white;
+            }
+            .home{
+                padding-top: 0;
+                width: 90px;
+                height: 30px;
+            }
+            .search{
+                flex: 1;
+                height: 30px;
+                max-width: 330px;
+                min-width: 100px;
+            }
+            input{
+                width: 260px;
+                border-radius: 10px;
+                border: none;
+                margin-top: 6.5px;
+                height: 19px;
+                padding-left:10px ;
+            }
+            /* input:focus{
+                border: 1px solid transparent;
+                box-shadow: none;
+            } */
+            input::placeholder{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 10px;
+                font-weight: 300;
+
+            }
+            .download{
+                width: 85px;
+                height: 28px;
+                border: 1px solid white;
+                border-radius: 1px;
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            button{
+                background-color:rgb(67, 5, 109); 
+                color: white;
+                border: none;
+                margin-top: 6.5px;
+                cursor: pointer;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="home"><button><a href="#">Home</a></button></div>
+                <div class="search"><input type="text" placeholder="Search"></div>
+                <div class="download"><button>Download</button></div>
+            </div>
+        </div>
+    </body>
+</html>

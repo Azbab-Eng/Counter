@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Post Box</title>
+    </head>
+    <style>
+        .post-container{
+            width: 500px;
+            height: 170px;
+            border-radius: 10px;
+            background-color: bisque;
+        }
+        .top-line{
+            background-color: black;
+            height: 15px;
+            width: 100%;
+        }
+        .post-content{
+            border-top: 7px solid rgb(211, 208, 208);
+            margin-top: 5px;
+            padding: 5px;
+        }
+        .profile-detail{
+            width: 480px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+        .profile{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-left:2px ;
+            
+        }
+        .image{
+            width: 60px;
+            height: 65px;
+            border-radius: 30px;
+            
+        }
+        .name-d{
+            /* padding-top: 3px; */
+            padding-left: 5px;
+        }
+        .name{
+            color: black;
+            font-size: 15px;
+            font-weight: bolder;
+            font-family: Arial;
+            margin-left: 5px;
+        }
+        .follow{
+            color: rgb(11, 73, 167);
+            font-size: 17px;
+            font-weight:900;
+            font-family: Arial;
+            
+        }
+        .time{
+            margin-top: -8px;
+            font-family: Arial;
+            font-size: 13px;
+            font-weight: bold;
+            padding-left: 5px;
+        }
+        .world{
+            height: 18px;
+            width: 18px;
+            border-radius: 10px;
+            margin-left: 6px;
+            vertical-align: bottom;
+        }
+        .icons{
+            width: 110px;
+            padding-top: 10px;
+        }
+        img{
+            height: 25px;
+            width: 30px;
+            border:none;
+            margin-left: 15px;
+        }
+        .desc{
+            font-family: Arial;
+            font-size: 16px;
+            font-weight: 700;
+            padding-left: 15px;
+           }
+    </style>
+    <body>
+        <div class="post-container">
+            <div class="top-line"></div>
+            <div class="post-content">
+                <div class="profile-detail">
+                    <div class="profile">
+                        <img class="image" src="images/onep5r.jpg" alt="images">
+                        <div class="profile-name">
+                            <p class="name-d"><span class="name">I'm oky .</span> <span class="follow">Follow</span></p>
+                            <p class="time">5d .<img class="world" src="images/20240406_012215.jpg" alt=""></p>
+                        </div>
+                    </div>
+                   
+                    <div class="icons">
+                        <img src="images/20240406_012215.jpg" alt="">
+                        <img src="images/20240406_012212.jpg" alt="">
+                    </div>
+                </div>
+                <div class="post-desc"><p class="desc">No body loves you in the world more than your mom.💔</p></div>
+            </div>
+        </div>
+    </body>
+</html>

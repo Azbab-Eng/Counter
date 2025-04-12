@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Assignment5</title>
+    <style>
+        .posts{
+            background-color: rgb(247, 237, 237);
+            width: 385px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 10px;
+            padding: 10px;
+            border-radius: 2px;
+        }
+        .post{
+            border: 1px solid gray;
+            /* padding: 10px; */
+            /* margin: 10px; */
+            padding-bottom: 10px;
+
+        }
+        img{
+            height: 115px;
+            width: 120px;
+        }
+        .name{
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            margin-left:4px;
+        }
+        .mutual{
+            height: 30px;
+            margin-top: 0px;
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            /* padding-left: 4px; */
+            margin-left: 4px;
+        }
+        .mutual img{
+            height: 17px;
+            width: 17px;
+            border-radius: 8px;
+            margin-right: 6px;
+            margin-top: 0;
+        }
+        .mutual p{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 80;
+        }
+        button{
+            background-color: rgba(25, 95, 226, 0.89);
+            border: none;
+            color: white;
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: 300;
+            padding: 5px 12px;
+            border-radius: 3px;
+            margin-left:4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="posts">
+            <div class="post">
+                <img src="images/20240328_214304.jpg" alt="">
+                <p class="name">Oliver</p>
+                <div class="mutual">
+                    <img src="images/20240328_214304.jpg" alt="">
+                    <p>2 mutual friends</p>
+                </div>
+                <button>Add Friend</button>
+            </div>
+            <div class="post">
+                <img src="images/20240328_214315.jpg" alt="">
+                <p class="name">Mimi</p>
+                <div class="mutual">
+                    <img src="images/20240328_214315.jpg" alt="">
+                    <p>3 mutual friends</p>
+                </div>
+                <button>Add Friend</button>
+            </div>
+            <div class="post">
+                <img src="images/20240328_214347.jpg" alt="">
+                <p class="name">Rex</p>
+                <div class="mutual">
+                    <img src="images/20240328_214347.jpg" alt="">
+                    <p>4 mutual friends</p>
+                </div>
+                <button>Add Friend</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
